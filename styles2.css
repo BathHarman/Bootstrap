@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    background: url('https://c02.purpledshub.com/uploads/sites/41/2013/04/GettyImages-640318118-c83a508.jpg?w=1029&webp=1') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-search {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    margin-right: 2rem; 
+    margin-top: -4px; /*search bar */
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex; 
+    gap: 1rem;
+}
+
+.nav-item {
+    display: inline;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
