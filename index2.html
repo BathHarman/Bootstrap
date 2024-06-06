@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Harman Bath Bootstrap Email Project</title>
+    <style>
+
+        .first-column {
+            background-color: #9898ffe6;
+            height: 100vh;
+        }
+        .first-column ul {
+            list-style: none;
+            padding: 0;
+        }
+        .first-column li {
+            padding: 10px 20px;
+            border-bottom: 1px solid #dee2e6; 
+        }
+        .first-column a {
+            text-decoration: none;
+            color: #393939; 
+        }
+        .first-column a:hover {
+            color: #0000ff; 
+        }
+
+        /*Small header */
+        .small-header {
+            background-color: #9568d4d4; 
+            padding: 5px 10px; 
+            font-size: 16px; 
+        }
+
+        /* Middle column*/
+        .mid-column {
+            background-color: #ffa1dedb; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <a href="#" class="navbar-brand">EMAIL</a>
+                <form class="form-inline">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Profile</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Log Out</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Small Header -->
+    <div class="small-header">
+        <h2 style="font-size: 15px;">New mail</h2>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- First Column -->
+            <div class="col-12 col-sm-3 col-lg-2 first-column">
+                <ul>
+                    <li><a href="#">Inbox</a></li>
+                    <li><a href="#">Sent Items</a></li>
+                    <li><a href="#">Drafts</a></li>
+                    <li><a href="#">Junk Email</a></li>
+                    <li><a href="#">Deleted Items</a></li>
+                </ul>
+            </div>
+            <!-- Middle Column -->
+            <div class="col-12 col-sm-3 col-lg-4 mid-column">
+                <li><a href="#">test</a></li>
+            </div>
+            <div class="col-12 col-sm-3 col-lg-2">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<link rel="stylesheet" href="styles2.css">
