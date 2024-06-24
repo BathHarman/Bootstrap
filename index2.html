@@ -4,34 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Harman Bath Bootstrap Email Project</title>
+    <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <div class="navbar-left">
-                <a href="#" class="navbar-brand">EMAIL</a>
-                <form class="form-inline">
-                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">EMAIL</a>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 </form>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Log Out</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <ul class="navbar-nav">
-                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Profile</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Log Out</a></li>
-            </ul>
         </nav>
     </header>
-    <!-- Small Header -->
-    <div class="small-header">
-        <h2 style="font-size: 15px;">New mail</h2>
+
+    <div class="purple-sub">
+        <button class="btn btn-custom">New mail</button>
     </div>
+
     <div class="container-fluid">
         <div class="row">
-            <!-- First Column -->
             <div class="col-12 col-sm-3 col-lg-2 first-column">
                 <ul>
                     <li><a href="#">Inbox</a></li>
@@ -41,14 +51,114 @@
                     <li><a href="#">Deleted Items</a></li>
                 </ul>
             </div>
-            <!-- Middle Column -->
-            <div class="col-12 col-sm-3 col-lg-4 mid-column">
-                <li><a href="#">test</a></li>
+          
+        
+            <div class="col-12 col-sm-4 col-lg-3 emails">
+                <a href="#" class="list-group-item list-group-item-action"
+                onmouseover="this.style.color='#FF1971'"
+                onmouseout="this.style.color='#000'">
+                   <div class="d-flex w-100 justify-content-between">
+                       <h5 class="mb-1">Daily Affirmations</h5>
+                       <small>08:00</small>
+                   </div>
+                   <p class="mb-1">You Are Loved. You Are Valued.</p>
+                   <small>I am successful.
+                    I am confident.
+                    I am powerful.
+                    I am strong.
+                    I am getting better...</small>
+                </a>
+                <hr>
+
+
+                <a href="#" class="list-group-item list-group-item-action"
+                   onMouseOver="this.style.color='#00F'"
+                   onMouseOut="this.style.color='#000'">
+                   <div class="d-flex w-100 justify-content-between">
+                       <h5 class="mb-1">NFL</h5>
+                       <small>0700</small>
+                   </div>
+                   <p class="mb-1">Raiders take on Eagles</p>
+                   <small>It's Sunday Night Football! Tonight at 7 ET on NFL Network. Join us during half time...</small>
+                </a>
+                <hr>
+
+
+                <a href="#" class="list-group-item list-group-item-action"
+                   onMouseOver="this.style.color='#00F'"
+                   onMouseOut="this.style.color='#000'">
+                   <div class="d-flex w-100 justify-content-between">
+                       <h5 class="mb-1">Southwest Airlines</h5>
+                       <small>June 20</small>
+                   </div>
+                   <p class="mb-1">Book your trip to Hawaii </p>
+                   <small>Getaways don't book themselves. Book your next trip today. View in web browser...</small>
+                </a>
+                <hr>
+
+
+                <a href="#" class="list-group-item list-group-item-action"
+                   onMouseOver="this.style.color='#00F'"
+                   onMouseOut="this.style.color='#000'">
+                   <div class="d-flex w-100 justify-content-between">
+                       <h5 class="mb-1">Target</h5>
+                       <small>June 20</small>
+                   </div>
+                   <p class="mb-1">Thanks for shopping with us!"</p>
+                   <small>We foresee some big smiles ahead! Your order is being processed. Order #:916A0...</small>
+                </a>
+                <hr>
+
+
+                <a href="#" class="list-group-item list-group-item-action"
+                onMouseOver="this.style.color='#00F'"
+                onMouseOut="this.style.color='#000'">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Nintendo</h5>
+                    <small>June 19</small>
+                </div>
+                <p class="mb-1">Confirmation of Digital Purchase from Nintendo </p>
+                <small>Thank you for your recent digital purchase from Nintendo. Details of this</small>
+             </a>
+             <hr>
             </div>
-            <div class="col-12 col-sm-3 col-lg-2">
+
+
+
+            <div class="col-12 col-sm-5 col-lg-7 fake-text-">
+                <div>
+                    <h1>You Are Loved. You Are Valued.</h1>
+                    <hr>
+                    <h5>dailyaffirmations@love.com</h5>
+                    <p>To: You</p>
+                    <p>
+                        I am successful.
+                        I am confident.
+                        I am powerful.
+                        I am strong.
+                        I am getting better and better every day.
+                        All I need is within me right now.
+                        I wake up motivated.
+                        I am an unstoppable force of nature.
+                        I am a living, breathing example of motivation.
+                        I am living with abundance.I am having a positive and inspiring impact on the people I come into contact with.
+                        I am inspiring people through my work.
+                        I’m rising above the thoughts that are trying to make me angry or afraid.
+                        Today is a phenomenal day.
+                        I am turning DOWN the volume of negativity in my life, while simultaneously turning UP the volume of positivity.
+                        I am filled with focus.
+                        I am not pushed by my problems; I am led by my dreams.
+                        I am grateful for everything I have in my life.
+                        I am independent and self-sufficient.
+                        I can be whatever I want to be.</p>
+                    <br>
+                    <div class="reply text-center">
+                        <a href="#" class="btn btn-custom">Reply</a>
+                        <a href="#" class="btn btn-custom">Forward</a>
+                        <hr>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</body>
-</html>
-<link rel="stylesheet" href="styles2.css">
+        </div> 
+    </div> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-b
